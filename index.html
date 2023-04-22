@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Binary Convert</title>
+  </head>
+  <body>
+    <div class="container">
+      <label
+        >Binary
+        <input
+          id="binary"
+          class="input binary"
+          type="number"
+          placeholder="Enter binary number"
+          pattern="^[0-1]+$"
+      /></label>
+      <label
+        >Decimal
+        <input
+          id="decimal"
+          class="input decimal"
+          type="number"
+          placeholder="Enter decimal number"
+      /></label>
+      <label
+        >hex
+        <input
+          id="hex"
+          class="input hex"
+          type="text"
+          placeholder="Enter hex number"
+      /></label>
+
+      <p class="alertText"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
